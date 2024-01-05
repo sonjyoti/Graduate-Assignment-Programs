@@ -41,8 +41,9 @@ class Teacher extends Dept implements College{
     }
 }
 
-public class Question8 extends Teacher{
-    Question8(){
-        super();
+public class Question8 {
+    public static void main(String[] args){
+        Teacher tch = new Teacher();
+        tch.showData();
     }
 }
