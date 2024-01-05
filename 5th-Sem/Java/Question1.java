@@ -49,9 +49,4 @@ class BankAcc{
         System.out.println("a/c Holder: "+accHolder+"\na/c type: "+accType+"\na/c No.: "+accountNo+"\nAvail bal: $"+accBalance+"\n");
     }
 }
-public class Question1 extends BankAcc{
-    Question1(double amount) {
-        super(amount);
-    }
-}
 
